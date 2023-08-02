@@ -128,7 +128,7 @@
 }
 
 .text_input:focus {
-    border-bottom: 1.5px solid rgb(236, 121, 26);
+    border-bottom: 1.5px solid rgb(103, 58, 183);
 }
 
 .add_footer {
@@ -154,7 +154,7 @@
 }
 
 .add_border {
-    border-left: 6px solid rgb(236, 121, 26);
+    border-left: 6px solid rgb(103, 58, 183);
 }
 
 .question_edit {

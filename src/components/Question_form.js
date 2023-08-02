@@ -578,7 +578,7 @@ function Question_form() {
           <Button
             onClick={handleSaveAsDraft}
             variant="contained"
-            style={{ color: "white", backgroundColor: "rgb(236, 121, 26)" }}
+            style={{ color: "white", backgroundColor: "rgb(103, 58, 183)" }}
           >
             Save as draft
           </Button>
@@ -587,7 +587,7 @@ function Question_form() {
             onClick={handleSendForm}
             style={{
               color: "white",
-              backgroundColor: "rgb(236, 121, 26)",
+              backgroundColor: "rgb(103, 58, 183)",
               marginLeft: "5px",
             }}
           >

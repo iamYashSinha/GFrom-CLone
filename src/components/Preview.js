@@ -123,7 +123,7 @@ function Preview() {
                     color="primary"
                     style={{
                       color: "white",
-                      backgroundColor: "rgb(236, 121, 26)",
+                      backgroundColor: "rgb(103, 58, 183)",
                       marginLeft: "5px",
                     }}
                   >
@@ -135,7 +135,7 @@ function Preview() {
                     color="primary"
                     style={{
                       color: "white",
-                      backgroundColor: "rgb(236, 121, 26)",
+                      backgroundColor: "rgb(103, 58, 183)",
                       marginLeft: "5px",
                     }}
                   >
@@ -143,7 +143,7 @@ function Preview() {
                   </Button>
                 </div>
 
-                <div className="user_footer"> &#169; Digilytics Forms</div>
+                <div className="user_footer"> &#169; Google Form</div>
               </div>
             </div>
           </div>

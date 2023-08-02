@@ -126,7 +126,7 @@ function Responses() {
               <Button
                 variant="contained"
                 color="primary"
-                style={{ color: "white", backgroundColor: "rgb(236, 121, 26)" }}
+                style={{ color: "white", backgroundColor: "rgb(103, 58, 183)" }}
                 onClick={handleDownload}
               >
                 Download Responses
