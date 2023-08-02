@@ -21,7 +21,7 @@ function Footer() {
 
   return (
     <footer style={footerStyle}>
-      &copy; {date.getFullYear()}  <a style={link} href='https://ovautocd.web.app/' target='_blank' rel='noopener noreferrer'>Digilytics Systems LLP</a>
+      &copy; {date.getFullYear()}  <a style={link} href='https://github.com/iamYashSinha/GFrom-CLone/tree/master' target='_blank' rel='noopener noreferrer'>Yash Sinha</a>
     </footer>
   );
 }
