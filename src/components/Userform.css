@@ -1,0 +1,57 @@
+/* Common styles for both desktop and mobile */
+.user_form {
+    background-color: #F4F4F9;
+    padding: 20px;
+}
+
+.user_form_section {
+    margin: auto;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_title_section {
+    background-color: white;
+    border-top: 8px solid rgb(236, 121, 26);
+    border-radius: 8px;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.user_form_questions {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px 25px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.user_form_submit {
+    float: left;
+}
+
+.user_footer {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+    .user_form_section {
+        width: 90%; /* Reduce the width for better mobile display */
+    }
+
+    .user_form_questions,
+    .user_title_section {
+        padding: 15px 10px; /* Adjust padding for better mobile display */
+    }
+
+    .user_form_submit {
+        float: none; /* Remove the float for better mobile display */
+        margin-top: 15px; /* Add some spacing between form and submit button */
+    }
+}

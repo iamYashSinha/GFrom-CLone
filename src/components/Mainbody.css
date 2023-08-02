@@ -1,0 +1,117 @@
+/* General styles for both mobile and desktop */
+.mainbody {
+    background-color: white;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  
+  .mainbody_top {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainbody_top_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainbody_top_center {
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    padding: 3px 5px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .mainbody_docs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .doc_card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .doc_card:hover {
+    border: 1px solid #6E2594;
+  }
+  
+  .doc_image {
+    box-sizing: border-box;
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    max-width: 100%; /* Limit the width to avoid stretching */
+  }
+  
+  .doc_card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 18px;
+  }
+  
+  .doc_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px;
+  }
+  
+  .content_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 767px) {
+    .mainbody {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .mainbody_top {
+      flex-direction: column;
+    }
+  
+    .mainbody_top_center {
+      margin-top: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .mainbody_top_right {
+      margin-top: 10px;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .mainbody_docs {
+      margin-top: 10px;
+    }
+  
+    .doc_card {
+      width: calc(50% - 10px); /* Show 2 cards per row on mobile */
+      margin-right: 10px;
+      margin-bottom: 10px; /* Add smaller margin between cards for mobile */
+    }
+  
+    .doc_image {
+      width: 100%;
+    }
+  
+    .doc_card_content,
+    .doc_content {
+      padding: 10px; /* Reduce padding for mobile */
+    }
+  }
+  
