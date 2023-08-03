@@ -1,5 +1,4 @@
-# Note 
-This Gform project I've already created during my recent internship worked as a full stack developer, and Luckily I got the same project to develop for MERCOR, So I took the reference from the previous one that I had created. Thank you
+
 
 # Getting Started with Create React App
 
